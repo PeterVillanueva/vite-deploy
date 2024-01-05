@@ -1,4 +1,14 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+import Hero from './components/homepage/Hero'
+import Role from './components/homepage/Role'
+import About from './components/homepage/About'
+import Services from './components/homepage/Services'
+import Works from './components/homepage/Works'
+import Contact from './components/homepage/Contact'
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
